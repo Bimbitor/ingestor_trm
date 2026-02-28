@@ -24,7 +24,7 @@ st.markdown("""
         box-shadow: 0 2px 4px rgba(0,0,0,0.05);
     }
     </style>
-    """, unsafe_allow_name_with_html=True)
+    """, unsafe_allow_html=True) # <--- Cámbialo a esto
 
 # --- CAPA DE DATOS (DATA ACCESS LAYER) ---
 def get_conn_string():
