@@ -30,7 +30,7 @@ def transform(data):
         date_str = datetime.now().strftime('%Y-%m-%d')
     
     base = data['base_code']
-    target_currencies = ['COP', 'MXN', 'EUR', 'BRL']
+    target_currencies = ['COP', 'MXN', 'EUR', 'BRL', 'PEN', 'CLP']
     now = datetime.now()
     
     records = []
