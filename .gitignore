@@ -5,6 +5,9 @@
 env/
 venv/
 ENV/
+.streamlit/
+
+
 
 # Python - Archivos temporales de ejecución
 __pycache__/
